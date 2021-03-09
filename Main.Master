@@ -50,19 +50,11 @@ body{
         <header>
         <h2>Ped Med System Home page</h2>
         </header>
-                    <div class="btn-group">
-       <a href="#First page"><button class ="nav-link">First page</button>
-		
-    </div>
-                <div class="btn-group">
-       <a href="#Second Page"><button class ="nav-link">Second Page</button>
-		
-    </div>
-    
-                    <div class="btn-group">
-       <a href="#Third page"><button class ="nav-link">Third page</button>
-		
-    </div>
+
+        
+        <button><a href="Default.aspx">Default page</a></button>
+        <button><a href="SecondPage.aspx">Second page</a></button>
+        <button><a href="ThirdPage.aspx">Third page</a></button>
 
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
